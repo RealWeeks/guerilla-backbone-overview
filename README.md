@@ -166,7 +166,7 @@ Backbone model to `app.Todo`.
 The stuff inside of our `Todo Model` sets the defaults for `title`, and `completed`.
 
 
-### Shut Up and Do This
+## Mini Lab: Shut Up and Do This
 
 Spin up your server... If you don't know how and made it this far I'm just
 impressed.  Here is a hint... it rhymes with `grunt serve`.
