@@ -65,7 +65,8 @@ without having to deal with table-flipping bugs.
 Another advantage is that you can use as much or as little backbone as you want.
 Say you only want to deal with views, Backbone is your bro.  Say you only want
 basic models, Backbone has your back.  Controllers, sure Backbone is like Bud
-Light, down for whatever.
+Light, down for whatever.  There are other goodies too like Events, Collections
+and a Router.
 
 Backbone is great for fighting the spaghetti monster and keeping your code
 organized.
@@ -94,9 +95,9 @@ app... Bro
 scripts/
      index.js
      controllers/
-         post.js
+         todo.js
      models/
-         post.js
+         todo.js
      views/
          index.js
 ```
@@ -108,7 +109,7 @@ apparent.
 Obviously this is just the scripts directory, and we will be adding more files
 and folders as we go, but this is a good starting place for most apps.
 
-Obvious this is some sort to blog app at least to start. We'll see where this
+Obvious this is some sort to Todo app at least to start. We'll see where this
 takes us.
 
 I know you're itching to see some code. So lets dive in here.
@@ -117,7 +118,37 @@ I know you're itching to see some code. So lets dive in here.
 
 ![French Pokemon](http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/draw-french-snorlax.jpg)
 
-Derp a dee do dum
+Add this snippit to your `scripts/models/todo.js` file:
+
+```js
+'use strict';
+
+const app = {}; // create namespace for our app
+
+  app.Todo = Backbone.Model.extend({
+    defaults: {
+      title: '',
+      completed: false
+    }
+  });
+```
+
+You wrote your first model, nice bro! (Not really, you just made some copypasta
+but whatever, if you don't tell anyone I wont either).
+
+You probably want to know what the code means **SUCKS TO BE YOU!**
+
+Just kidding, let's start with the first part:
+
+```js
+app.Todo = Backbone.Model.extend({
+  // model stuff here
+})
+```
+
+
+
+
 
 ## [License](LICENSE)
 
