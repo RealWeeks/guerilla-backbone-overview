@@ -121,6 +121,8 @@ I know you're itching to see some code. So lets dive in here.
 First off, don't be a derp.  Add this to you manifest `index.js`:
 
 ```js
+'use strict';
+
 const Backbone = require('backbone');
 ```
 
