@@ -72,7 +72,7 @@ organized.
 
 Business logic <-------         (Ah, love this seperation)             ------> UI
 
-`"But Jason, I'm a sad SOB. I gots Pokemone to catch and cheetoz to eats, how hard is this?"`
+`"But Jason, I'm a sad SOB. I gots Pokemons to catch and cheetoz to eats, how hard is this?"`
 
 As Rihanna once said [CAKE CAKE CAKE](https://www.youtube.com/watch?v=YxE75Otag1M)
 
@@ -94,9 +94,9 @@ app... Bro
 scripts/
      index.js
      controllers/
-         main-controller.js
+         post.js
      models/
-         main-model.js
+         post.js
      views/
          index.js
 ```
@@ -108,7 +108,16 @@ apparent.
 Obviously this is just the scripts directory, and we will be adding more files
 and folders as we go, but this is a good starting place for most apps.
 
+Obvious this is some sort to blog app at least to start. We'll see where this
+takes us.
 
+I know you're itching to see some code. So lets dive in here.
+
+# Model: Draw me like one of your French girls, Jack
+
+![French Pokemon](http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/draw-french-snorlax.jpg)
+
+Derp a dee do dum
 
 ## [License](LICENSE)
 
