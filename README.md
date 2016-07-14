@@ -52,6 +52,24 @@ Good, Glad you're back.  I'm sure you read some stuff that you both did and
 didn't understand.  I'm going to give you a quick explaination of Backbone so
 we can be on the same page for the rest of this... Bro.
 
+Backbone is a lightweight library but might as well be an MVC framework. Unlike
+a ravenous pitbull it plays nicely with others.  This means that you can use
+other frameworks or libraries (as long as they play nice as well) with Backbone
+without having to deal with table-flipping bugs.
+
+Another advantage is that you can use as much or as little backbone as you want.
+Say you only want to deal with views, Backbone is your bro.  Say you only want
+basic models, Backbone has your back.  Controllers, sure Backbone is like Bud
+Light, down for whatever.
+
+Backbone is great for fighting the spaghetti monster and keeping your code
+organized.
+
+Business logic <-------      (Ah, love this seperation)          ------> UI
+
+`"But Jason, I'm a sad SOB. I gots Pokemone to catch and cheetoz to eats, how hard is this?"`
+
+As Rihanna once said [CAKE CAKE CAKE](https://www.youtube.com/watch?v=YxE75Otag1M)
 
 
 
