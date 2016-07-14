@@ -163,7 +163,36 @@ This extends the the Backbone <something> and all of its shiny cool inner
 workings to your variable.  In our case it's the model.  We're extending the
 Backbone model to `app.Todo`.
 
-The stuff inside of our `Todo Model` sets the defaults for title, and completed.
+The stuff inside of our `Todo Model` sets the defaults for `title`, and `completed`.
+
+
+### Shut Up and Do This
+
+Spin up your server... If you don't know how and made it this far I'm just
+impressed.  Here is a hint... it rhymes with `grunt serve`.
+
+Copy and paste what we wrote in the model (you may need to change the `const` to
+`var`).
+
+Then create a new instance of a Todo with something like this:
+
+```js
+var todo = new app.Todo({title: 'Stop sucking', completed: false});
+```
+
+and test if it worked with `todo.get('title');`.  See the title?
+
+![Look at it](http://lh4.ggpht.com/sqbX0-1A4YPYEE44m93mOGWKP_f1mfLMBNXoqpJA93NRoprNMMOPMMR-8fieVSRSk5dU_xVXwsevQ6IlPuCsOQ=s240)
+
+If you don't see the title well, sucks to be you `rm -rf life`.  If you do try
+setting another property in the todo with something like `todo.set('isDumb', 'Aye');`
+
+Nice, you're pretty much a model ninja now. Play around with that for a bit, when
+you're done move on to the next section.  We need to talk about collections then
+we're done with the model layer... Kindof.
+
+## Collections: Yes There's More Stop Whining
+
 
 
 ## [License](LICENSE)
