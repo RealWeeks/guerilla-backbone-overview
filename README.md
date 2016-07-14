@@ -27,9 +27,32 @@ Install with `npm install`.
 -   [Rick Astley](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 -   LULz
 
+## Necessary Skills
+
+-   Knowledge of basic MVC pattern
+-   Some front end framework knowledge
+-   Javascript
+-   A sense of Lulz
+-   [Watching this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 ## Dafaq is Backbone?
 
-Ever heard of google?
+Ever heard of google? Seriously, if you found yourself asking that question
+and didn't google it you're SOL and might as well stop reading now or go Google
+it.
+
+...
+...
+
+Seriously, I'll wait...
+
+__Not playing, go Google it__
+
+Good, Glad you're back.  I'm sure you read some stuff that you both did and
+didn't understand.  I'm going to give you a quick explaination of Backbone so
+we can be on the same page for the rest of this... Bro.
+
+
 
 
 ## [License](LICENSE)
