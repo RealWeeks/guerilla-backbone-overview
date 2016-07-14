@@ -76,6 +76,38 @@ Business logic <-------         (Ah, love this seperation)             ------> U
 
 As Rihanna once said [CAKE CAKE CAKE](https://www.youtube.com/watch?v=YxE75Otag1M)
 
+## Enough Bull, Let's Do This
+
+So you skipped the first section, nice you're pretty much a true developer (5
+points Gryffindor).  Go back and read it you slacker.
+
+As I said earlier Backbone is a lightweight library, that allows you to use
+whatever parts you desire to help build your app. This freedom is a gift and a
+curse.  It's great because allows you to build your project the way you want,
+unfortunately it allows you to build the project anyway you want.
+
+You'll have to create your directories and files manually. Everyone has a
+different style but something similiar to this is what I will be using for this
+app... Bro
+
+```bash
+scripts/
+     index.js
+     controllers/
+         main-controller.js
+     models/
+         main-model.js
+     views/
+         index.js
+```
+
+*Note: This structure is currently subject to change as this repo is being
+developed if pain points and more convient ways to structure make themselves
+apparent.
+
+Obviously this is just the scripts directory, and we will be adding more files
+and folders as we go, but this is a good starting place for most apps.
+
 
 
 ## [License](LICENSE)
