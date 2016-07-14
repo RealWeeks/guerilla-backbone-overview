@@ -32,7 +32,7 @@ Install with `npm install`.
 
 ## Necessary Skills
 
--   Knowledge of basic MVC pattern
+-   Knowledge of basic MVC pattern and their parts
 -   Some front end framework knowledge
 -   Javascript
 -   Maybe Rails? Idk, we'll see
@@ -118,6 +118,12 @@ I know you're itching to see some code. So lets dive in here.
 
 ![French Pokemon](http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/draw-french-snorlax.jpg)
 
+First off, don't be a derp.  Add this to you manifest `index.js`:
+
+```js
+const Backbone = require('backbone');
+```
+
 Add this snippit to your `scripts/models/todo.js` file:
 
 ```js
@@ -126,6 +132,7 @@ Add this snippit to your `scripts/models/todo.js` file:
 const app = {}; // create namespace for our app
 
   app.Todo = Backbone.Model.extend({
+    // notice that Todo, Backbone and Model are capitaized
     defaults: {
       title: '',
       completed: false
@@ -146,8 +153,17 @@ app.Todo = Backbone.Model.extend({
 })
 ```
 
+With Backbone you will see a common pattern.
 
+```js
+let foo = Backbone.<something>.extend({})
+```
 
+This extends the the Backbone <something> and all of its shiny cool inner
+workings to your variable.  In our case it's the model.  We're extending the
+Backbone model to `app.Todo`.
+
+The stuff inside of our `Todo Model` sets the defaults for title, and completed.
 
 
 ## [License](LICENSE)
