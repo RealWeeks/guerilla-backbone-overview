@@ -16,6 +16,9 @@ Again why?
 
 **FOR ALL THE LULZ**
 
+I'm gonna ramble a bit, crack some jokes and have some fun. Maybe you'll pick
+up some backbone along the way.
+
 ## Dependencies
 
 Install with `npm install`.
@@ -32,6 +35,7 @@ Install with `npm install`.
 -   Knowledge of basic MVC pattern
 -   Some front end framework knowledge
 -   Javascript
+-   Maybe Rails? Idk, we'll see
 -   A sense of Lulz
 -   [Watching this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
@@ -42,6 +46,7 @@ and didn't google it you're SOL and might as well stop reading now or go Google
 it.
 
 ...
+<br>
 ...
 
 Seriously, I'll wait...
@@ -65,7 +70,7 @@ Light, down for whatever.
 Backbone is great for fighting the spaghetti monster and keeping your code
 organized.
 
-Business logic <-------      (Ah, love this seperation)          ------> UI
+Business logic <-------         (Ah, love this seperation)             ------> UI
 
 `"But Jason, I'm a sad SOB. I gots Pokemone to catch and cheetoz to eats, how hard is this?"`
 
